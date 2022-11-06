@@ -1,0 +1,54 @@
+body {
+    background-color: #0F4F47;
+}
+header {
+    background-color: #77F2E2;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+article {
+    background-color: #24BDA8;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+article > h2 {
+    text-transform: capitalize;
+    padding: 50px 10px 10px 10px;
+    margin: 10px;
+}
+
+article > img {
+    height: 350px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+}
+
+article > a {
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 10px 5px 10px;
+}
+
+article > time {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding: 10px;
+}
+
+article > p {
+    padding: 25px 35px 35px 35px;
+    text-align: left;
+}
