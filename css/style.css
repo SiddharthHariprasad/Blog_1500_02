@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-color: #24BDA8;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+
+
+
+header h1 {
+    color: #c5f5ee;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+article {
+    background-color: #77f2e287;
+    text-align: center;
+    /* width: 500px; */
+    box-shadow: 5px 5px 10px #0e1d1b;
+    margin: 10px;
+}
+
+article > h2 {
+    text-transform: capitalize;
+    padding: 50px 10px 10px 10px;
+    margin: 10px;
+}
+
+article > img {
+    height: 350px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+}
+
+article > a {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #04463f;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+article > a:hover {
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+article > time {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    padding: 10px;
+}
+
+article > p {
+    padding: 25px 120px 35px 120px;
+    text-align: left;
+    margin: auto;
+}
